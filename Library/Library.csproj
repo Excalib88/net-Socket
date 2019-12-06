@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SocketLibrary</RootNamespace>
     <AssemblyName>Socket</AssemblyName>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -40,6 +40,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ConnectedSocket.cs" />
     <Compile Include="SocketListener.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Net.Sockets" Version="4.3.0" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
