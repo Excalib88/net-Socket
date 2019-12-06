@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Excalib</Authors>
+    <Description>A minimalist wrapper around System.Net.Sockets.Socket. .NET Standard</Description>
+    <PackageProjectUrl>https://github.com/Excalib88/net-Socket</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Excalib88/net-Socket</RepositoryUrl>
+    <PackageIconUrl>https://github.com/Excalib88/net-Socket/raw/master/Assets/logo.png</PackageIconUrl>
+    <NeutralLanguage></NeutralLanguage>
+    <Product>SocketLibrary</Product>
+    <PackageId>SocketWrapperStandard</PackageId>
   </PropertyGroup>
 
 </Project>
